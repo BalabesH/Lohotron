@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lohotron", "Lohotron.csproj", "{A25987ED-C73F-47C1-B4BF-0700E666723F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25987ED-C73F-47C1-B4BF-0700E666723F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25987ED-C73F-47C1-B4BF-0700E666723F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25987ED-C73F-47C1-B4BF-0700E666723F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25987ED-C73F-47C1-B4BF-0700E666723F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13E0067B-8BD6-4A7F-9C38-83CBC7101160}
+	EndGlobalSection
+EndGlobal
