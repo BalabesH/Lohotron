@@ -27,8 +27,11 @@ namespace Lohotron
         public int[] ChPlayer = new int[5];
         public int[] ChRandom = new int[5];
         public int[] Compare = new int[5];
+        List<int> Nums = new List<int>();
         List<int> Tickets = new List<int>();
         public int win = 0;
+        private string result;
+        public string Result { get => result; set => result = value; }
 
         public void Action()
         {
@@ -56,11 +59,16 @@ namespace Lohotron
                 for (int j = 0; j < 5; j++)
                 {
                     if (ChPlayer[i] == ChRandom[j])
+                    {
                         win++;
+                        Nums.Add(ChPlayer[i]);////////////NENFFFEFEG
+                    }
                 }
+                
+                Result = String.Join(", ", Nums);
             }
 
-
+            
 
             //int k;
             //var rand = new Random();
